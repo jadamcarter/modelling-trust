@@ -59,6 +59,8 @@ disableKinds = ["taxonomy", "term"]
 
 [markup.goldmark.renderer]
   unsafe = false
+[markup.goldmark.parser.attribute]
+  block = true
 
 [outputs]
   home = ["HTML", "RSS"]

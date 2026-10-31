@@ -118,6 +118,8 @@ h2 { color: var(--heading); }
 .prose a:hover { color: var(--navy); }
 @media (prefers-color-scheme: dark) { .prose a:hover { color: #fff; } }
 
+.prose .paper-meta { margin: -0.2em 0 0.9em; font-size: 15px; font-weight: 600; color: var(--muted); }
+
 /* Footer */
 .foot { background: var(--navy2); color: #c9d4e3; font-size: 15px; margin-top: 24px; }
 .foot .wrap { padding-top: 32px; padding-bottom: 32px; display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
