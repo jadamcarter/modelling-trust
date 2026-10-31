@@ -8,4 +8,4 @@ Modelling Trust, a new research network based in Philosophy at the University of
 
 Over the coming year the network will run three thematic workshops, a public talk series and a conference in Glasgow, all asking one question: can modelling methods from the social sciences help us understand when trust in experts is warranted, and how broken trust can be rebuilt?
 
-Details of the first events will appear on the [programme](/programme/) page. To hear about them, [join the mailing list](/join/).
+Details of the first events will appear on the [programme]({{< relref "/programme" >}}) page. To hear about them, [join the mailing list]({{< relref "/join" >}}).

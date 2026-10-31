@@ -27,7 +27,7 @@ Trust in scientists and other experts has fallen sharply in recent years. Some o
 - A flagship conference in Glasgow in summer 2027, bringing the three strands together.
 - Co-authored working papers, and a network of collaborators across philosophy, economics and the social sciences.
 
-See the [programme](/programme/) for details as they're confirmed.
+See the [programme]({{< relref "/programme" >}}) for details as they're confirmed.
 
 ## Funding
 

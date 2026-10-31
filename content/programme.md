@@ -4,7 +4,7 @@ description: "Workshops, a public talk series and a conference in Glasgow."
 showDate: false
 ---
 
-Dates, speakers and registration details will appear here as they're confirmed. To hear about them first, [join the mailing list](/join/).
+Dates, speakers and registration details will appear here as they're confirmed. To hear about them first, [join the mailing list]({{< relref "/join" >}}).
 
 ## Thematic workshops
 
@@ -32,4 +32,4 @@ A conference in Glasgow in summer 2027 will bring the three strands together, pr
 
 ## Taking part
 
-Our events are free. We aim for speaker line-ups that are diverse in gender, career stage, institution and geography, and we invite early-career researchers and PGRs to speak and chair as well as to attend. A small fund helps early-career researchers and PGRs with UK travel and caring costs; details will come with each event. See [Accessibility](/accessibility/) for how we're making events accessible.
+Our events are free. We aim for speaker line-ups that are diverse in gender, career stage, institution and geography, and we invite early-career researchers and PGRs to speak and chair as well as to attend. A small fund helps early-career researchers and PGRs with UK travel and caring costs; details will come with each event. See [Accessibility]({{< relref "/accessibility" >}}) for how we're making events accessible.

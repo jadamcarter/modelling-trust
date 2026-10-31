@@ -11,4 +11,4 @@ We want everyone who's interested to be able to take part.
 - A small fund helps early-career researchers and PGRs with UK travel and caring costs.
 - Venues are chosen with step-free access in mind.
 
-If you need an adjustment to take part, or anything on this site isn't accessible to you, please [contact us](/join/) and we'll do what we can.
+If you need an adjustment to take part, or anything on this site isn't accessible to you, please [contact us]({{< relref "/join" >}}) and we'll do what we can.

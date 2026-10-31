@@ -22,4 +22,4 @@ Reader in Philosophy at the University of Glasgow. Works in applied epistemology
 
 ## The network
 
-We're building a network of researchers across philosophy, economics, psychology, political science, computing science and public health who work on trust and expertise. If that's you, [we'd like to hear from you](/join/).
+We're building a network of researchers across philosophy, economics, psychology, political science, computing science and public health who work on trust and expertise. If that's you, [we'd like to hear from you]({{< relref "/join" >}}).
