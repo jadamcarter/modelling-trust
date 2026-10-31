@@ -1,0 +1,14 @@
+<div class="people">
+  {{- range hugo.Data.people }}
+  {{- $img := (resources.Get .photo).Fill "320x320 Center q85" }}
+  <section class="person">
+    <a href="{{ .url }}" class="person-photo"><img src="{{ $img.RelPermalink }}" width="160" height="160" alt="{{ .name }}"></a>
+    <div class="person-text">
+      <h3><a href="{{ .url }}">{{ .name }}</a></h3>
+      <p class="person-role">{{ .role }}</p>
+      <p>{{ .bio | markdownify }}</p>
+      <p class="person-link"><a href="{{ .url }}">{{ .link }} →</a></p>
+    </div>
+  </section>
+  {{- end }}
+</div>
