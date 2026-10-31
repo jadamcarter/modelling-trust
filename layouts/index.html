@@ -3,6 +3,7 @@
 <section class="hero" style="background-image: url('{{ $hero.RelPermalink }}');">
   <div class="wrap">
     <h1>{{ site.Title }}</h1>
+    <p class="tag">{{ site.Params.tagline }}</p>
     <p class="q">{{ site.Params.question }}</p>
     <p class="cta">
       <a class="btn y" href="{{ "about/" | relURL }}">About the project</a>

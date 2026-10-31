@@ -6,6 +6,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "A research network on trust, expertise and the use of models to study them, based in Philosophy at the University of Glasgow."
+  tagline = "A research network on trust and expertise"
   question = "Can we model our way out of the crisis of expertise?"
   copyright = "© 2026 Modelling Trust, University of Glasgow"
 
