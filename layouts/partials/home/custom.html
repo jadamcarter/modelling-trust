@@ -1,0 +1,29 @@
+{{ $hero := resources.Get "img/hero.jpg" | resources.Fingerprint }}
+<section class="mt-hero" style="background-image: linear-gradient(100deg, rgba(8,22,48,.94) 0%, rgba(8,22,48,.82) 45%, rgba(8,22,48,.35) 100%), url('{{ $hero.RelPermalink }}');">
+  <div class="mt-hero-inner">
+    <p class="mt-kicker">A research network at the University of Glasgow</p>
+    <h1 class="mt-title">{{ .Site.Title }}</h1>
+    <p class="mt-question">{{ .Params.description }}</p>
+    <div class="mt-cta">
+      <a class="mt-btn mt-btn-primary" href="{{ "about/" | relURL }}">About the project</a>
+      <a class="mt-btn mt-btn-ghost" href="{{ "join/" | relURL }}">Join the network</a>
+    </div>
+  </div>
+</section>
+
+<section class="mt-intro prose dark:prose-invert">
+  {{ .Content }}
+</section>
+
+<section class="mt-strands" aria-labelledby="mt-strands-h">
+  <h2 id="mt-strands-h" class="mt-section-h">The three workshops</h2>
+  <div class="mt-grid">
+    {{ range .Site.Data.strands }}
+      <a class="mt-card" href="{{ "programme/" | relURL }}#{{ .anchor }}">
+        <span class="mt-card-lead">Led by {{ .lead }}</span>
+        <span class="mt-card-title">{{ .title }}</span>
+        <span class="mt-card-blurb">{{ .blurb }}</span>
+      </a>
+    {{ end }}
+  </div>
+</section>

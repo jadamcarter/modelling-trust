@@ -1,0 +1,13 @@
+disabled = false
+locale = "en-GB"
+label = "English"
+weight = 1
+title = "Modelling Trust"
+
+[params]
+  displayName = "EN"
+  isoCode = "en-GB"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "A Glasgow research network on trust, expertise and the use of models to study them. Can we model our way out of the crisis of expertise?"
+  copyright = "© 2026 Modelling Trust, University of Glasgow"
