@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{- $hero := resources.Get "img/hero.jpg" | fingerprint }}
+<section class="hero" style="background-image: url('{{ $hero.RelPermalink }}');">
+  <div class="wrap">
+    <h1>{{ site.Title }}</h1>
+    <p class="q">{{ site.Params.question }}</p>
+    <p class="cta">
+      <a class="btn y" href="{{ "about/" | relURL }}">About the project</a>
+      <a class="btn o" href="{{ "join/" | relURL }}">Join the network</a>
+    </p>
+  </div>
+</section>
+
+<section class="intro wrap">
+  <div class="prose">{{ .Content }}</div>
+  <aside class="facts" aria-label="Project facts">
+    {{- range site.Params.facts }}
+    <b>{{ .label }}</b><span>{{ .text }}</span>
+    {{- end }}
+  </aside>
+</section>
+
+<section class="strands wrap" aria-labelledby="ws-h">
+  <h2 id="ws-h">The three workshops</h2>
+  <div class="grid">
+    {{- range hugo.Data.strands }}
+    <a class="card" href="{{ "programme/" | relURL }}#{{ .anchor }}">
+      <span class="by">Led by {{ .lead }}</span>
+      <h3>{{ .title }}</h3>
+      <p>{{ .blurb }}</p>
+    </a>
+    {{- end }}
+  </div>
+</section>
+
+{{- $news := first 3 (where site.RegularPages "Section" "news").ByDate.Reverse }}
+{{- with $news }}
+<section class="news wrap" aria-labelledby="news-h">
+  <h2 id="news-h">News</h2>
+  <ul class="newslist">
+    {{- range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ with .Description }}<p>{{ . }}</p>{{ end }}</li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}

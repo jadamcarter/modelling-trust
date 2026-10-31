@@ -1,0 +1,12 @@
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-ack">
+      <p><strong>{{ site.Title }}</strong> is supported by the <a href="https://www.gla.ac.uk/explore/glasgowchangingfutures/">Glasgow Changing Futures (GCF) Collaborative Seed Fund</a>.</p>
+      <p class="strap">Glasgow Changing Futures (GCF) is a University of Glasgow strategic programme of collaborative research, education, innovation, knowledge exchange and partnership activities. Its aim is to nurture and advance a creative, collaborative environment within and beyond the University to address the complex societal challenges that will shape the future.</p>
+    </div>
+    <div class="foot-meta">
+      <ul>{{ range site.Menus.footer }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}</ul>
+      <p>{{ site.Params.copyright }}</p>
+    </div>
+  </div>
+</footer>

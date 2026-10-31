@@ -1,0 +1,61 @@
+baseURL = "https://modellingtrust.uk/" # GitHub Pages passes its own address at build time
+locale = "en-GB"
+title = "Modelling Trust"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "A research network on trust, expertise and the use of models to study them, based in Philosophy at the University of Glasgow."
+  question = "Can we model our way out of the crisis of expertise?"
+  copyright = "© 2026 Modelling Trust, University of Glasgow"
+
+  # The fact box beside the introduction on the home page.
+  [[params.facts]]
+    label = "Based in"
+    text = "Philosophy, University of Glasgow, with COGITO Epistemology Research Centre"
+  [[params.facts]]
+    label = "Funded by"
+    text = "Glasgow Changing Futures Collaborative Seed Fund"
+  [[params.facts]]
+    label = "Running"
+    text = "October 2026 – July 2027"
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+  [[menus.main]]
+    name = "Programme"
+    pageRef = "/programme"
+    weight = 20
+  [[menus.main]]
+    name = "People"
+    pageRef = "/people"
+    weight = 30
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 40
+  [[menus.main]]
+    name = "News"
+    pageRef = "/news"
+    weight = 50
+  [[menus.main]]
+    name = "Join"
+    pageRef = "/join"
+    weight = 60
+  [[menus.footer]]
+    name = "Join the network"
+    pageRef = "/join"
+    weight = 10
+  [[menus.footer]]
+    name = "Accessibility"
+    pageRef = "/accessibility"
+    weight = 20
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[outputs]
+  home = ["HTML", "RSS"]

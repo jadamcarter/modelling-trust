@@ -1,0 +1,26 @@
+<div class="logostrip">
+  <div class="wrap">
+    {{- range $i, $l := hugo.Data.logos }}
+      {{- if $i }}<span class="sep" aria-hidden="true"></span>{{ end }}
+      {{- $img := resources.Get $l.image | fingerprint }}
+      <a href="{{ $l.url }}" title="{{ $l.name }}"><img class="{{ $l.class }}" src="{{ $img.RelPermalink }}" alt="{{ $l.name }}"></a>
+    {{- end }}
+  </div>
+</div>
+{{- $page := . }}
+{{- define "partials/menu-items.html" }}
+  {{- $page := .page }}
+  {{- range site.Menus.main }}
+  <li><a href="{{ .URL }}"{{ if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+  {{- end }}
+{{- end }}
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav class="desk" aria-label="Main"><ul>{{ partial "menu-items.html" (dict "page" $page) }}</ul></nav>
+    <details class="mob">
+      <summary aria-label="Menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Main"><ul>{{ partial "menu-items.html" (dict "page" $page) }}</ul></nav>
+    </details>
+  </div>
+</header>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="pagehead">
+  <div class="wrap">
+    {{- if eq .Section "news" }}<p class="crumb"><a href="{{ "news/" | relURL }}">News</a></p>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{- if eq .Section "news" }}<p class="dek"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></p>
+    {{- else }}{{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}{{ end }}
+  </div>
+</div>
+<article class="wrap page">
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}
