@@ -20,6 +20,10 @@ Lecturer in Philosophy at the University of Glasgow. Works across normative ethi
 
 Reader in Philosophy at the University of Glasgow. Works in applied epistemology and bioethics, including trust in medicine and the ethics of expert advice, and leads interdisciplinary research collaborations at COGITO. Anchors the project's work on monitoring and repairing trust.
 
+## Advisory board
+
+We're appointing an advisory board of researchers from philosophy and neighbouring disciplines to advise on the network's direction. Invitations are going out now, and members will be listed here once they've accepted.
+
 ## The network
 
 We're building a network of researchers across philosophy, economics, psychology, political science, computing science and public health who work on trust and expertise. If that's you, [we'd like to hear from you]({{< relref "/join" >}}).

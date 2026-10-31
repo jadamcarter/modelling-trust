@@ -21,11 +21,21 @@
 </section>
 
 <section class="strands wrap" aria-labelledby="ws-h">
-  <h2 id="ws-h">The three workshops</h2>
+  <h2 id="ws-h">The programme, 2026–27</h2>
+  <p class="sub">Three thematic workshops</p>
   <div class="grid">
     {{- range hugo.Data.strands }}
     <a class="card" href="{{ "programme/" | relURL }}#{{ .anchor }}">
       <span class="by">Led by {{ .lead }}</span>
+      <h3>{{ .title }}</h3>
+      <p>{{ .blurb }}</p>
+    </a>
+    {{- end }}
+  </div>
+  <div class="grid two">
+    {{- range hugo.Data.events }}
+    <a class="card wide" href="{{ "programme/" | relURL }}#{{ .anchor }}">
+      <span class="by">{{ .when }}</span>
       <h3>{{ .title }}</h3>
       <p>{{ .blurb }}</p>
     </a>

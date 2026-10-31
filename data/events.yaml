@@ -1,0 +1,10 @@
+# The two other parts of the programme, shown under the workshop cards on the
+# home page. Each links to its heading on the Programme page.
+- title: "Public talk series"
+  when: "December 2026 – June 2027"
+  blurb: "About six hybrid talks by leading voices on trust and expertise from the UK and abroad, recorded and shared openly."
+  anchor: "public-talk-series"
+- title: "Flagship conference"
+  when: "Glasgow, summer 2027"
+  blurb: "A day and a half bringing the three strands together and presenting the network’s first results."
+  anchor: "flagship-conference"

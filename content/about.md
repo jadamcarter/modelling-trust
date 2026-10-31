@@ -23,8 +23,9 @@ Trust in scientists and other experts has fallen sharply in recent years. Some o
 ## What we're doing in 2026–27
 
 - Three thematic workshops, each pairing invited speakers with researchers and PGRs in Glasgow.
-- A public-facing hybrid talk series, recorded and shared openly.
-- A flagship conference in Glasgow in summer 2027, bringing the three strands together.
+- A public talk series of about six hybrid talks, from December 2026 to June 2027, recorded and shared openly.
+- A day-and-a-half flagship conference in Glasgow in summer 2027, bringing the three strands together and presenting the network's first results.
+- An advisory board, now being appointed, to guide the network's direction.
 - Co-authored working papers, and a network of collaborators across philosophy, economics and the social sciences.
 
 See the [programme]({{< relref "/programme" >}}) for details as they're confirmed.

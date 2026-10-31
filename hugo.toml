@@ -19,6 +19,9 @@ disableKinds = ["taxonomy", "term"]
   [[params.facts]]
     label = "Running"
     text = "October 2026 – July 2027"
+  [[params.facts]]
+    label = "Advisory board"
+    text = "Being appointed: invitations are going out now"
 
 [menus]
   [[menus.main]]

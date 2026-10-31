@@ -24,11 +24,11 @@ Each workshop is led by one of the co-leads and pairs invited speakers with rese
 
 ## Public talk series
 
-A series of about six talks by leading researchers from the UK and abroad, running from early 2027. Talks are hybrid: you can attend in Glasgow or online, and recordings will be shared here.
+A public series of about six talks, running from December 2026 to June 2027, featuring leading voices on trust and expertise from the UK and abroad. Talks are hybrid: you can come in person in Glasgow or join online. Every talk is recorded and shared openly on this site.
 
-## Conference
+## Flagship conference
 
-A conference in Glasgow in summer 2027 will bring the three strands together, present the network's first results, and look ahead to the next stage of the work.
+A day-and-a-half conference in Glasgow in summer 2027 (May–July). It brings the three strands together and presents the network's first results, with invited keynote speakers alongside the Glasgow team and early-career researchers. It closes with a session on the network's next stage: the joint projects and collaborations it will take forward after the seed year. The main talks will be recorded and shared, with live captioning or BSL interpretation.
 
 ## Taking part
 
