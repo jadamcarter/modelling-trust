@@ -27,3 +27,15 @@
     {{ end }}
   </div>
 </section>
+
+<section class="mt-partners" aria-labelledby="mt-partners-h">
+  <h2 id="mt-partners-h" class="mt-partners-h">Based at and supported by</h2>
+  <div class="mt-logos">
+    {{ range .Site.Data.logos }}
+      {{ $img := resources.Get .image | resources.Fingerprint }}
+      <a class="mt-logo{{ with .tile }} mt-logo-{{ . }}{{ end }}" href="{{ .url }}" title="{{ .name }}">
+        <img src="{{ $img.RelPermalink }}" alt="{{ .name }}" loading="lazy">
+      </a>
+    {{ end }}
+  </div>
+</section>

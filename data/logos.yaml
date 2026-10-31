@@ -1,0 +1,12 @@
+# Logos in the "Based at and supported by" row on the home page.
+# To replace one, put the new file in assets/img/logos/ and change "image".
+- name: "University of Glasgow"
+  image: "img/logos/uofg.png"
+  url: "https://www.gla.ac.uk/"
+- name: "COGITO Epistemology Research Centre"
+  image: "img/logos/cogito.jpg"
+  url: "https://www.gla.ac.uk/research/az/cogito/"
+- name: "Glasgow Changing Futures"
+  image: "img/logos/gcf.png"
+  url: "https://www.gla.ac.uk/explore/glasgowchangingfutures/"
+  tile: "gcf"

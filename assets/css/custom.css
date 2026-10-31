@@ -45,6 +45,26 @@
 .dark .mt-card-title { color: #f1f5f9; }
 .dark .mt-card-blurb { color: #cbd5e1; }
 
+.mt-partners { margin: 3rem 0 1rem; }
+.mt-partners-h {
+  margin: 0 0 1rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #64748b;
+}
+.mt-logos { display: flex; flex-wrap: wrap; gap: 1rem; align-items: stretch; }
+/* Each logo sits on its own white tile, in dark mode too: the artwork is made
+   for a white ground. GCF's wordmark keeps its own pink. */
+.mt-logo {
+  flex: 1 1 13rem; display: flex; align-items: center; justify-content: center;
+  height: 6rem; padding: 0.9rem 1.4rem; border-radius: 0.75rem;
+  background: #fff; border: 1px solid rgba(100, 116, 139, 0.25);
+  transition: border-color .15s, transform .15s;
+}
+.mt-logo:hover { border-color: rgba(13, 148, 136, 0.7); transform: translateY(-2px); }
+.mt-logo img { max-height: 100%; max-width: 100%; width: auto; margin: 0 !important; object-fit: contain; }
+.mt-logo-gcf { background: rgb(228, 145, 175); border-color: rgb(228, 145, 175); }
+.mt-logo-gcf img { max-height: 70%; }
+.dark .mt-partners-h { color: #94a3b8; }
+
 @media (max-width: 640px) {
   .mt-hero-inner { padding: 3rem 1.4rem 2.8rem; }
   .mt-hero { background-position: 70% center; }
