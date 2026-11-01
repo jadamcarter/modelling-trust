@@ -30,6 +30,7 @@
       <span class="by">Led by {{ .lead }}</span>
       <h3>{{ .title }}</h3>
       <p>{{ .blurb }}</p>
+      {{- with .date }}<p class="when">{{ . }}</p>{{ end }}
     </a>
     {{- end }}
   </div>

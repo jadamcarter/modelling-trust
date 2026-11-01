@@ -8,19 +8,22 @@ Dates, speakers and registration details will appear here as they're confirmed. 
 
 ## Thematic workshops
 
-Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. All three are planned for the first half of 2027.
+Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 28 January 2027; dates for the other two will follow.
 
-### Modelling methods in epistemology
+### Modelling methods in epistemology {#modelling-methods-in-epistemology}
+
+**Thursday 28 January 2027, Glasgow.** Speakers and registration details to follow.
+{.event-date}
 
 *Led by Nicolas Côté.* What can idealised models tell us about rational trust, and what can't they? This workshop looks at modelling, simulation and robustness analysis as tools for philosophy, and at what epistemology can learn from how economists and other social scientists use models.
 
-### Trust, trustworthiness and the ethics of expert advice
+### Trust, trustworthiness and the ethics of expert advice {#trust-trustworthiness-and-the-ethics-of-expert-advice}
 
 *Led by Emma C. Gordon.* When does expert advice deserve trust, and what do experts owe the people who rely on them? This workshop focuses on medicine and public health, on monitoring trust, and on how trust can be repaired once it has broken down.
 
-### Trust transport and the generalisation of distrust
+### Expertise, Trust, and Epistemic Trespassing {#expertise-trust-and-epistemic-trespassing}
 
-*Led by J. Adam Carter.* When trust in an expert grows or collapses in one domain, how should that carry over to others? This workshop takes up our trust-transport model and the questions it raises about epistemic trespassing, reverse trespass, and the way distrust spreads from one institution or field to the next.
+*Led by J. Adam Carter.* Experts often speak outside the field where their expertise lies. When they do, how far should our trust follow them, and when does trust in an expert in one field properly carry over to another? This workshop takes up epistemic trespassing and the nature of expertise, together with our trust-transport model and the questions it raises about reverse trespass and the way distrust spreads from one institution or field to the next.
 
 ## Public talk series
 

@@ -85,6 +85,9 @@ h2 { color: var(--heading); }
 .card .by { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .card h3 { font-size: 23px; line-height: 1.25; margin: 8px 0; color: var(--heading); }
 .card p { margin: 0; font-size: 17px; color: var(--muted); }
+.card p.when { margin-top: 12px; font-size: 15px; font-weight: 700; color: var(--navy); }
+.prose .event-date { margin: 0 0 .6em; padding: 10px 14px; background: var(--soft); border-left: 4px solid var(--yellow); font-size: 17px; }
+@media (prefers-color-scheme: dark) { .card p.when { color: var(--yellow); } }
 @media (prefers-color-scheme: dark) { .card:nth-child(1) { border-top-color: #5b8fd1; } }
 
 .strands .sub { margin: -10px 0 16px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
