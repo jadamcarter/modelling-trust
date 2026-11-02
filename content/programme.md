@@ -8,11 +8,11 @@ Dates, speakers and registration details will appear here as they're confirmed. 
 
 ## Thematic workshops
 
-Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 28 January 2027; dates for the other two will follow.
+Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 27 January 2027; dates for the other two will follow.
 
 ### Modelling methods in epistemology {#modelling-methods-in-epistemology}
 
-**Thursday 28 January 2027, Glasgow.** Speakers and registration details to follow.
+**Wednesday 27 January 2027, Glasgow.** Speakers and registration details to follow.
 {.event-date}
 
 *Led by Nicolas Côté.* What can idealised models tell us about rational trust, and what can't they? This workshop looks at modelling, simulation and robustness analysis as tools for philosophy, and at what epistemology can learn from how economists and other social scientists use models.
