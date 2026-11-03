@@ -1,0 +1,14 @@
+{{- $key := .Get 0 -}}
+{{- $list := index hugo.Data.speakers $key -}}
+{{- if $list }}
+<div class="speakers">
+  <p class="speakers-h">Confirmed speakers</p>
+  <ul>
+    {{- range $list }}
+    <li><strong>{{ .name }}</strong>{{ with .affiliation }} ({{ . }}){{ end }}{{ with .title }}: <em>{{ . }}</em>{{ end }}</li>
+    {{- end }}
+  </ul>
+</div>
+{{- else }}
+<p class="speakers-none">Speakers will be listed here as they confirm.</p>
+{{- end }}

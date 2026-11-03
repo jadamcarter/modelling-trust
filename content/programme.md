@@ -8,7 +8,7 @@ Dates, speakers and registration details will appear here as they're confirmed. 
 
 ## Thematic workshops
 
-Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 27 January 2027; dates for the other two will follow.
+Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 27 January 2027 and the third on 9 July 2027; the date for the second will follow.
 
 ### Modelling methods in epistemology {#modelling-methods-in-epistemology}
 
@@ -23,7 +23,12 @@ Each workshop is led by one of the co-leads and pairs invited speakers with rese
 
 ### Expertise, Trust, and Epistemic Trespassing {#expertise-trust-and-epistemic-trespassing}
 
+**Friday 9 July 2027, Glasgow.** Registration details to follow.
+{.event-date}
+
 *Led by J. Adam Carter.* Experts often speak outside the field where their expertise lies. When they do, how far should our trust follow them, and when does trust in an expert in one field properly carry over to another? This workshop takes up epistemic trespassing and the nature of expertise, together with our trust-transport model and the questions it raises about reverse trespass and the way distrust spreads from one institution or field to the next.
+
+{{< speakers "trespassing" >}}
 
 ## Public talk series
 
