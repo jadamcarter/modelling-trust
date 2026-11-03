@@ -19,7 +19,7 @@ Each workshop is led by one of the co-leads and pairs invited speakers with rese
 
 ### Trustworthy Expertise and Responsible Publishing in the Age of AI {#trustworthy-expertise-and-responsible-publishing}
 
-**Tuesday 30 March 2027, ARC.** Speakers and registration details to follow.
+**Tuesday 1 June 2027, ARC.** Speakers and registration details to follow.
 {.event-date}
 
 *Led by Emma C. Gordon.* A COGITO workshop held jointly with Emma Gordon's UKRI AI Metascience project on responsible publishing. What must researchers understand, and be able to explain or defend, for their AI-assisted publications and expert advice to deserve trust? The day brings together talks on trustworthy science in an age of AI and a panel on expertise in the age of AI.
