@@ -22,7 +22,7 @@ disableKinds = ["taxonomy", "term"]
     text = "October 2026 – July 2027"
   [[params.facts]]
     label = "Advisory board"
-    text = "Being appointed: invitations are going out now"
+    text = "Ian Forrest, Nikolas Kirby and Matthew Jope, with more to be announced"
 
 [menus]
   [[menus.main]]

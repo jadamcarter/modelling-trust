@@ -12,7 +12,13 @@ The three co-leads share the project equally, and each leads one of the thematic
 
 ## Advisory board
 
-We're appointing an advisory board of researchers from philosophy and neighbouring disciplines to advise on the network's direction. Invitations are going out now, and members will be listed here once they've accepted.
+The advisory board brings perspectives from across the University to guide the network's direction.
+
+- **Ian Forrest**, Professor of Social and Religious History and Head of the School of Humanities, University of Glasgow
+- **Nikolas Kirby**, Reader in Politics and International Relations, University of Glasgow
+- **Matthew Jope**, Lecturer in Philosophy, University of Glasgow
+
+Further members will be announced.
 
 ## The network
 

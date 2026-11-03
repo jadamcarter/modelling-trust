@@ -8,22 +8,25 @@ Dates, speakers and registration details will appear here as they're confirmed. 
 
 ## Thematic workshops
 
-Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. The first is on 27 January 2027 and the third on 9 July 2027; the date for the second will follow.
+Each workshop is led by one of the co-leads and pairs invited speakers with researchers and PGRs in Glasgow. All three take place at the University of Glasgow's Advanced Research Centre (ARC), 11 Chapel Lane, Glasgow G11 6EW.
 
 ### Modelling methods in epistemology {#modelling-methods-in-epistemology}
 
-**Wednesday 27 January 2027, Glasgow.** Speakers and registration details to follow.
+**Wednesday 27 January 2027, ARC, Studio 2.** Speakers and registration details to follow.
 {.event-date}
 
 *Led by Nicolas Côté.* What can idealised models tell us about rational trust, and what can't they? This workshop looks at modelling, simulation and robustness analysis as tools for philosophy, and at what epistemology can learn from how economists and other social scientists use models.
 
-### Trust, trustworthiness and the ethics of expert advice {#trust-trustworthiness-and-the-ethics-of-expert-advice}
+### Trustworthy Expertise and Responsible Publishing in the Age of AI {#trustworthy-expertise-and-responsible-publishing}
 
-*Led by Emma C. Gordon.* When does expert advice deserve trust, and what do experts owe the people who rely on them? This workshop focuses on medicine and public health, on monitoring trust, and on how trust can be repaired once it has broken down.
+**Tuesday 30 March 2027, ARC.** Speakers and registration details to follow.
+{.event-date}
+
+*Led by Emma C. Gordon.* A COGITO workshop held jointly with Emma Gordon's UKRI AI Metascience project on responsible publishing. What must researchers understand, and be able to explain or defend, for their AI-assisted publications and expert advice to deserve trust? The day brings together talks on trustworthy science in an age of AI and a panel on expertise in the age of AI.
 
 ### Expertise, Trust, and Epistemic Trespassing {#expertise-trust-and-epistemic-trespassing}
 
-**Friday 9 July 2027, Glasgow.** Registration details to follow.
+**Friday 9 July 2027, ARC, Studio 2.** Registration details to follow.
 {.event-date}
 
 *Led by J. Adam Carter.* Experts often speak outside the field where their expertise lies. When they do, how far should our trust follow them, and when does trust in an expert in one field properly carry over to another? This workshop takes up epistemic trespassing and the nature of expertise, together with our trust-transport model and the questions it raises about reverse trespass and the way distrust spreads from one institution or field to the next.
