@@ -2,8 +2,9 @@
   <div class="wrap">
     {{- range $i, $l := hugo.Data.logos }}
       {{- if $i }}<span class="sep" aria-hidden="true"></span>{{ end }}
-      {{- $img := resources.Get $l.image | fingerprint }}
-      <a href="{{ $l.url }}" title="{{ $l.name }}"><img class="{{ $l.class }}" src="{{ $img.RelPermalink }}" alt="{{ $l.name }}"></a>
+      {{- /* Scaled to twice the displayed height (sharp on retina, a few KB each). */}}
+      {{- $img := (resources.Get $l.image).Resize (printf "x%d png" (mul $l.height 2)) }}
+      <a href="{{ $l.url }}" title="{{ $l.name }}"><img class="{{ $l.class }}" src="{{ $img.RelPermalink }}" alt="{{ $l.name }}" width="{{ div $img.Width 2 }}" height="{{ $l.height }}"></a>
     {{- end }}
   </div>
 </div>

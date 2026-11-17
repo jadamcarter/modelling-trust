@@ -4,11 +4,14 @@
   image: "img/logos/uofg.png"
   url: "https://www.gla.ac.uk/"
   class: "lg-uofg"
+  height: 58  # displayed height in px; keep in step with .lg-uofg in site.css
 - name: "COGITO Epistemology Research Centre"
   image: "img/logos/cogito.png"
   url: "https://www.gla.ac.uk/research/az/cogito/"
   class: "lg-cogito"
+  height: 46  # displayed height in px; keep in step with .lg-cogito in site.css
 - name: "Glasgow Changing Futures"
   image: "img/logos/gcf.png"
   url: "https://www.gla.ac.uk/explore/glasgowchangingfutures/"
   class: "lg-gcf"
+  height: 44  # displayed height in px; keep in step with .lg-gcf in site.css

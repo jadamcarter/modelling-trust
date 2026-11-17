@@ -19,11 +19,13 @@
   {{- with .OutputFormats.Get "rss" }}
   <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">
   {{- end }}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Source+Serif+4:ital,wght@1,400&display=swap" rel="stylesheet">
-  {{- $css := resources.Get "css/site.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{- /* Fonts are self-hosted and the stylesheet is inlined, so nothing outside
+       the page itself can hold up the first paint. GitHub Pages tells browsers
+       to recheck every file after ten minutes, which made a separate stylesheet
+       (and Google's font CSS) an intermittent blocker on page changes. */}}
+  <link rel="preload" href="{{ "fonts/source-sans-3-normal-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{- $css := slice (resources.Get "css/fonts.css") (resources.Get "css/site.css") | resources.Concat "css/all.css" | minify }}
+  <style>{{ $css.Content | safeCSS }}</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -32,5 +34,10 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{- /* Start loading the next page before the click: Chrome prerenders a
+       same-site link after a short hover; other browsers fetch it into the
+       cache on hover or touch. */}}
+  <script type="speculationrules">{"prerender":[{"source":"document","where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
+  <script>(function(){if(HTMLScriptElement.supports&&HTMLScriptElement.supports("speculationrules"))return;var seen={};function warm(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a||a.origin!==location.origin||a.pathname===location.pathname||seen[a.href])return;seen[a.href]=1;fetch(a.href,{credentials:"same-origin"}).catch(function(){});}document.addEventListener("mouseover",warm,{passive:true});document.addEventListener("touchstart",warm,{passive:true});})();</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- $hero := resources.Get "img/hero.jpg" | fingerprint }}
+{{- $hero := (resources.Get "img/hero.jpg").Resize "1920x q78" }}
 <section class="hero" style="background-image: url('{{ $hero.RelPermalink }}');">
   <div class="wrap">
     <h1>{{ site.Title }}</h1>
