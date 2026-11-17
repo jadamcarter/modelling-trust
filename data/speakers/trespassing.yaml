@@ -3,6 +3,8 @@
 # (~/.claude/scripts/speaker-watcher) as acceptances arrive; safe to edit by hand.
 - name: "Victoria Wang"
   affiliation: "PhD researcher, University of Edinburgh"
+- name: "Stephen John"
+  affiliation: "University of Cambridge"
 - name: "Catherine Happer"
   affiliation: "University of Glasgow"
 - name: "Jake Jacobs"

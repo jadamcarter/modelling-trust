@@ -12,10 +12,12 @@ Each workshop is led by one of the co-leads and pairs invited speakers with rese
 
 ### Modelling methods in epistemology {#modelling-methods-in-epistemology}
 
-**Wednesday 27 January 2027, ARC, Studio 2.** Speakers and registration details to follow.
+**Wednesday 27 January 2027, ARC, Studio 2.** Registration details to follow.
 {.event-date}
 
 *Led by Nicolas Côté.* What can idealised models tell us about rational trust, and what can't they? This workshop looks at modelling, simulation and robustness analysis as tools for philosophy, and at what epistemology can learn from how economists and other social scientists use models.
+
+{{< speakers "modelling" >}}
 
 ### Trustworthy Expertise and Responsible Publishing in the Age of AI {#trustworthy-expertise-and-responsible-publishing}
 
