@@ -15,4 +15,11 @@ Experts often opine outside their home domain of expertise. A Nobel Prize-winnin
 
 *Penultimate version coming soon.*
 
+### Epistemic Cults
+
+Jesper Kallestrup, J. Adam Carter and Emma C. Gordon · *Journal of the American Philosophical Association*, forthcoming
+{.paper-meta}
+
+Our information eco-system is polluted not only veritistically, by falsehood, but topologically, by warped information pathways. Social epistemology has analysed several such structures—filter bubbles, echo chambers, epistemic bunkers—but has so far largely ignored the cult. We develop an account of epistemic cults, built from four mutually reinforcing features—pre-emptive deferral to a merely perceived epistemic authority, leader-controlled epistemic isolation, structural epistemic indoctrination, and an extremist mindset—show how they differ in characteristic profile from neighbouring structures, and argue that their distinctive harm is the leader's appropriation of members' epistemic autonomy.
+
 Working papers in progress are listed under [Research]({{< relref "/research" >}}).
